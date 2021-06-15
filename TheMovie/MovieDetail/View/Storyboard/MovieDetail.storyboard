@@ -108,13 +108,13 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="659-aU-iRT">
-                                <rect key="frame" x="334" y="30" width="50" height="50"/>
+                                <rect key="frame" x="344" y="30" width="50" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xl-oY-nuV">
-                                        <rect key="frame" x="15" y="15" width="20" height="20"/>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xl-oY-nuV">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="Gjq-kn-cjQ"/>
-                                            <constraint firstAttribute="width" constant="20" id="wRD-GU-9tz"/>
+                                            <constraint firstAttribute="height" constant="30" id="Gjq-kn-cjQ"/>
+                                            <constraint firstAttribute="width" constant="30" id="wRD-GU-9tz"/>
                                         </constraints>
                                         <state key="normal" image="Cancel"/>
                                         <connections>
@@ -124,8 +124,8 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="2Xl-oY-nuV" firstAttribute="centerX" secondItem="659-aU-iRT" secondAttribute="centerX" id="3NX-FC-ghM"/>
-                                    <constraint firstItem="2Xl-oY-nuV" firstAttribute="centerY" secondItem="659-aU-iRT" secondAttribute="centerY" id="Ddt-G2-UvQ"/>
+                                    <constraint firstItem="2Xl-oY-nuV" firstAttribute="centerX" secondItem="659-aU-iRT" secondAttribute="centerX" constant="5" id="3NX-FC-ghM"/>
+                                    <constraint firstItem="2Xl-oY-nuV" firstAttribute="centerY" secondItem="659-aU-iRT" secondAttribute="centerY" constant="5" id="Ddt-G2-UvQ"/>
                                     <constraint firstAttribute="width" constant="50" id="oFJ-ek-6JI"/>
                                     <constraint firstAttribute="height" constant="50" id="v1B-f1-4c0"/>
                                 </constraints>
@@ -147,7 +147,7 @@
                             <constraint firstItem="mNG-vF-WMb" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="QFZ-aO-4Ly"/>
                             <constraint firstItem="mNG-vF-WMb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Up6-ns-d0X"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Pam-jb-wj0" secondAttribute="trailing" constant="30" id="XDs-eJ-xv6"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="659-aU-iRT" secondAttribute="trailing" constant="30" id="YEs-jd-4kz"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="659-aU-iRT" secondAttribute="trailing" constant="20" id="YEs-jd-4kz"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mNG-vF-WMb" secondAttribute="trailing" id="bRi-tN-M8k"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="hud-K9-06m" secondAttribute="bottom" id="bfU-e4-C6h"/>
                             <constraint firstItem="659-aU-iRT" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="30" id="bhF-Ls-5gt"/>

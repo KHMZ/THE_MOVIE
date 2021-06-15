@@ -102,13 +102,13 @@
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UPCOMING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqE-Um-uWS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="20.333333333333332"/>
+                                <rect key="frame" x="10" y="0.0" width="404" height="20.333333333333332"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaz-mr-PV2">
-                                <rect key="frame" x="0.0" y="170.33333333333334" width="414" height="20.333333333333343"/>
+                                <rect key="frame" x="10" y="170.33333333333334" width="404" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -117,7 +117,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Aaz-mr-PV2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="2if-7e-RUY"/>
+                            <constraint firstItem="Aaz-mr-PV2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="2if-7e-RUY"/>
                             <constraint firstItem="8OT-93-qJ9" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="4ad-gk-b83"/>
                             <constraint firstItem="DqE-Um-uWS" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="7Uw-8a-efw"/>
                             <constraint firstItem="1oU-qJ-8Pb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="7Xy-Ei-yQL"/>
@@ -127,7 +127,7 @@
                             <constraint firstItem="8OT-93-qJ9" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="KTN-IO-En8"/>
                             <constraint firstItem="DqE-Um-uWS" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="NQg-XJ-T6S"/>
                             <constraint firstItem="Aaz-mr-PV2" firstAttribute="top" secondItem="1oU-qJ-8Pb" secondAttribute="bottom" id="QMb-lY-O1I"/>
-                            <constraint firstItem="DqE-Um-uWS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="vmc-d7-U2R"/>
+                            <constraint firstItem="DqE-Um-uWS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="vmc-d7-U2R"/>
                             <constraint firstItem="8OT-93-qJ9" firstAttribute="top" secondItem="Aaz-mr-PV2" secondAttribute="bottom" id="xTA-o8-M96"/>
                         </constraints>
                     </view>
