@@ -22,18 +22,40 @@ class DataManger {
     }
     
     func savePopularMovies(movies: Movies){
-        try! realm.write {
-            realm.add(movies.changeIsPopular(isPopular: true),update: .all)
+            for each in movies.results {
+                let info = realm.objects(Movie.self).filter("id = \(each.id)").first
+                
+                if info != nil {
+                    try! realm.write {
+                        info?.isPopular = true
+                        realm.add(info ?? each,update: .modified)
+                    }
+                }else{
+                    try! realm.write {
+                        each.isPopular = true
+                        realm.add(each,update: .modified)
+                    }
+                }
+            }
         }
-        print(Realm.Configuration.defaultConfiguration.fileURL!)
-    }
-    
-    func saveUpcomingMovies(movies: Movies){
-        try! realm.write {
-            realm.add(movies.changeIsUpcoming(isUpComing: true),update: .all)
+        
+        func saveUpcomingMovies(movies: Movies){
+            for each in movies.results {
+                let info = realm.objects(Movie.self).filter("id = \(each.id)").first
+                
+                if info != nil {
+                    try! realm.write {
+                        info?.isUpcoming = true
+                        realm.add(info ?? each,update: .modified)
+                    }
+                }else{
+                    try! realm.write {
+                        each.isUpcoming = true
+                        realm.add(each,update: .modified)
+                    }
+                }
+            }
         }
-        print(Realm.Configuration.defaultConfiguration.fileURL!)
-    }
     
     func setFavourite(movie: Movie){
         try! realm.write {

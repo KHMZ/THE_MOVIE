@@ -35,22 +35,5 @@ class Movies: Mappable {
         
     }
     
-    func changeIsUpcoming(isUpComing:Bool) -> [Movie]{
-        var tempArray : [Movie] = []
-            for each in results{
-                each.isUpcoming = isUpComing
-                tempArray.append(each)
-            }
-        return tempArray
-    }
-
-    func changeIsPopular(isPopular:Bool) -> [Movie]{
-        var tempArray : [Movie] = []
-            for each in results{
-                each.isPopular = isPopular
-                tempArray.append(each)
-            }
-        return tempArray
-    }
 }
 

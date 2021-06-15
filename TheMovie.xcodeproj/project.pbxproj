@@ -198,11 +198,6 @@
 		528370482676FB5C00131C73 /* MovieDetail */ = {
 			isa = PBXGroup;
 			children = (
-				528370822677C3BE00131C73 /* Protocol */,
-				528370812677C3B800131C73 /* Router */,
-				528370802677C3B400131C73 /* Entity */,
-				5283707F2677C3AB00131C73 /* Presenter */,
-				5283707E2677C3A200131C73 /* Interactor */,
 				5283707D2677C39A00131C73 /* View */,
 			);
 			path = MovieDetail;
@@ -328,41 +323,6 @@
 				528370852677C41200131C73 /* Storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		5283707E2677C3A200131C73 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		5283707F2677C3AB00131C73 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		528370802677C3B400131C73 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		528370812677C3B800131C73 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		528370822677C3BE00131C73 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		528370852677C41200131C73 /* Storyboard */ = {

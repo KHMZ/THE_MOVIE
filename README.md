@@ -13,7 +13,7 @@ Users can be able to toggle movies as favorites on detail screen.
     
 ## Installation
 
-To run The Movie project, clone the repo, and run pod install from the  directory first.
+To run The Movie project, clone the repo, and run *pod install* from the  directory first.
 Third party libraries that I am using
 
 ```bash
@@ -23,6 +23,7 @@ Third party libraries that I am using
   pod 'SDWebImage'
   pod 'ReachabilitySwift'
 ```
+Note: if any version conflict in pod's library, please delete 'Podfile.lock' and run *pod install* again
 
 
 ## Screen Shots
